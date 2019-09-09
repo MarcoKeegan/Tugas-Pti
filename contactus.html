@@ -9,7 +9,7 @@
 </head>
 <body>  
   <header>
-    <h1>Contact Us</h1>
+    <h1 style="text-align: center;">Fish Gallery</h1>
   </header>
   
   <nav class="col-12 padding-16 center">
@@ -18,26 +18,22 @@
       <li class="col-2"><a href="collection.html">Collection</a></li>
       <li class="col-2"><a href="contactus.html">Contact Us</a></li>
   </nav>
-
+    <h2>Contact Us</h2>
     <div>
         <form id="isi">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <fieldset>
+          <legend>Ingin Kontak</legend>
+          <label for="fname">Name :</label>
+          <input type="text" id="name" name="name" placeholder="Your name..."><br/>
 
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email :</label>
+          <input type="text" id="email" name="email" placeholder="Your Email..."><br/>
 
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="indonesia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
+          <label for="coment">comment :</label><br/>
+          <textarea id="subject" name="coment" placeholder="Write the coment..." style="width:1500px;height:200px"></textarea><br/>
 
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-          <input type="button" onclick="myFunction()" value="Submit">
+          <input type="button" onclick="myFunction()" value="Submit"><br/>
+          </fieldset>
         </form>
 
         <script>
@@ -46,7 +42,6 @@
         }
         </script>
       </div>
-  
-
+      <div class="footer"><p>Created by Marco Keegan S.H</p></div>
 </body>
 </html>
