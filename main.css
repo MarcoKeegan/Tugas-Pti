@@ -2,6 +2,10 @@
 	width: 100%;
 }
 
+header>h1{
+font-family: 'Chilanka', cursive;
+}
+
 @media only screen and (min-width: 600px) {
 	.col-m-1 {width: 8.33%;}
 	.col-m-2 {width: 16.66%;}

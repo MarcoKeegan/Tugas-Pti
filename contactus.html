@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Website</title>
   <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
   <link href="main.css" rel="stylesheet"/>
 </head>
 <body>  
@@ -13,23 +14,25 @@
   </header>
   
   <nav class="col-12 padding-16 center">
+      <ul>
       <li class="col-2"><a href="index.html">Home</a></li>
       <li class="col-2"><a href="About.html">About</a></li>
       <li class="col-2"><a href="collection.html">Collection</a></li>
       <li class="col-2"><a href="contactus.html">Contact Us</a></li>
+    </ul>
   </nav>
     <h2>Contact Us</h2>
     <div>
         <form id="isi">
           <fieldset>
           <legend>Ingin Kontak</legend>
-          <label for="fname">Name :</label>
+          <label for="name">Name :</label>
           <input type="text" id="name" name="name" placeholder="Your name..."><br/>
 
           <label for="email">Email :</label>
           <input type="text" id="email" name="email" placeholder="Your Email..."><br/>
 
-          <label for="coment">comment :</label><br/>
+          <label for="subject">comment :</label><br/>
           <textarea id="subject" name="coment" placeholder="Write the coment..." style="width:1500px;height:200px"></textarea><br/>
 
           <input type="button" onclick="myFunction()" value="Submit"><br/>
